@@ -20,6 +20,9 @@ O que aprendi:
   - Como mapear as rotas dentro da nossa aplicação e utilizar o CELEBRATE para validação doas rotas, de acordo com o tipo de dado;
   - Um pouco sobre CORS e sua importância na segurança de nossa aplicação
   - A importância de declarar a função assíncronas para evitar erros;
+  - Utilização de 1 teste unitário para testar a geração de id único;
+  - Utilização de 1 teste de integração testando a criação da ONG e verificando se o id criado é compatível com o esperado (ter lenth: 8 e a propriedade de id, tomando cuidado para automatizar o reset de nosso DB, utilizando um banco de dados criado especificamente para testes e realizar rollback para resetar o mesmo, além de realizar a migration;
+  
 
 2) Frontend:
   - Estrutura básica e funcionamento do REACT, e, o porquê é uma ferramenta muito poderosa, para criação de SPA (Single Page Applications)
