@@ -1,5 +1,6 @@
 const crypto = require('crypto'); // It's going to generate your random ID
 const connection = require('../database/connection') // Allow you to make operations with DB
+const generateUniqueId = require('../utils/generateUniqueId');
 
 module.exports = {
     // GET
@@ -11,7 +12,7 @@ module.exports = {
     // POST
     async create(request, response){ // async to respect the time to insert data
         const { name, email, whatsapp, city, uf } = request.body; // Data from ONGs
-        const id = crypto.randomBytes(4).toString('HEX'); // Generates your id
+        const id = generateUniqueId(); // Generates your id (unit test)
     
         await connection('ongs').insert({
             id,
