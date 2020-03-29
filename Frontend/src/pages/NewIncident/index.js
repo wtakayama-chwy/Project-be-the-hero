@@ -43,7 +43,9 @@ function NewIncident(){
         <div className="new-incident-container">
             <div className="content">
                 <section>
-                    <img src={logoImg} alt="Be The Hero"/>
+                    <Link className="back-link" to="/">
+                        <img src={logoImg} alt="Be The Hero"/>
+                    </Link>                    
                     <h1>Cadastrar novo caso</h1>
                     <p>Descreva o caso detalhadamente para encontrar o herói para resolver o caso</p>
                     <Link className="back-link" to="/profile">

@@ -35,7 +35,9 @@ function Logon() {
     return(
         <div className="logon-container">
             <section className="form">
-                <img src={logo} alt="Be the Hero"/>
+                <Link className="back-link" to="/">
+                    <img src={logo} alt="Be The Hero"/>
+                </Link>                
                 
                 <form onSubmit={handleLogin}>
                     <h1>Faça seu logon</h1>

@@ -45,7 +45,7 @@ const routes = express.Router();
         [Segments.BODY]: Joi.object().keys({
             title: Joi.string().required(),
             description: Joi.string().required(),
-            value: Joi.number().required().min(1).max(4),
+            value: Joi.number().required(),
         }),
         [Segments.HEADERS]: Joi.object({
             authorization: Joi.string().required(),

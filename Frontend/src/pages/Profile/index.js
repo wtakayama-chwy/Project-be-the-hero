@@ -50,7 +50,9 @@ function Profile() {
     return (
         <div className="profile-container">
             <header>
-                <img src={logoImg} alt="Be the Hero" />
+                <Link className="back-link" to="/">
+                    <img src={logoImg} alt="Be The Hero"/>
+                </Link>                
                 <span>Bem-vindo, {ongName}</span>
                 <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
                 <button onClick={handleLogout} type="button">
