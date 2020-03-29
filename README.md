@@ -2,6 +2,8 @@
 
 ## O que é? 
   Projeto fullstack para aprendizado próprio, focado na linguagem JavaScript.
+  #### Demonstração versão Desktop (React + NodeJs):
+  <img src="https://media.giphy.com/media/ie7MAqv6wOxJeKtk4J/giphy.gif">
 
 ## Stack utilizada: 
   - React (Frontend) <img src="https://cdn.iconscout.com/icon/free/png-256/react-4-1175110.png" height="35" alt="react-logo">
