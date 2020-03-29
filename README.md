@@ -1,10 +1,13 @@
 # be-the-hero 
 
-O que é? Projeto fullstack para aprendizado próprio, focado na linguagem JavaScript.
+### O que é? 
+  Projeto fullstack para aprendizado próprio, focado na linguagem JavaScript.
 
-Stack utilizado: React (Frontend), React Native (Mobile) e NodeJS (backend)
+### Stack utilizada: 
+  React (Frontend), React Native (Mobile) e NodeJS (backend)
 
-Objetivo: Criar uma plataforma simples onde ONGs possam se registrar e cadastrar incidentes, os quais
+### Objetivo:
+  Criar uma plataforma simples onde ONGs possam se registrar e cadastrar incidentes, os quais
 necessitem de alguma ajuda financeira. A aplicação terá versão web e mobile.
 
 O que aprendi: 
