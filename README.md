@@ -55,5 +55,9 @@ necessitem de alguma ajuda financeira. A aplicação terá versão web e mobile.
   - Utilização do __*AXIOS*__ para requisições HTTP, linkando com nosso backend. Importante ressaltar que devemos prestar atenção em qual será nossa URL Base, pois, se estivermos utilizando o EXPO devemos verificar o ip utilizado e apontar corretamente;
   - Utilizar o __*Intl*__ para formatações internacionais, como por exemplo currency 'BRL' = R$;
   
+## Contribuições
+Pull requests são bem-vindo. Para maiores alterações favor abrir uma issue para conversarmos.
+Caso tenha algo que possa ser melhorado, não hesite em me contatar :smile:
 
+## License
 Projeto Baseado na [Semana OmniStack 11.0](https://rocketseat.com.br/week/inscricao/11.0), realizado no período de 23/03 à 29/03/2020. 
