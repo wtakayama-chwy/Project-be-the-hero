@@ -63,3 +63,4 @@ Caso tenha algo que possa ser melhorado, não hesite em me contatar :smile:
 
 ## License
 Projeto Baseado na [Semana OmniStack 11.0](https://rocketseat.com.br/week/inscricao/11.0), realizado no período de 23/03 à 29/03/2020. 
+MIT License - Copyright (c) 2020 william-takayama
